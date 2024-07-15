@@ -94,6 +94,14 @@ function MainLayout$Navigation(props) {
                                     className: legacyAClass
                                   })
                             }),
+                        JsxRuntime.jsx(Link, {
+                              href: "/scribe",
+                              legacyBehavior: true,
+                              children: JsxRuntime.jsx("a", {
+                                    children: "Scribe",
+                                    className: legacyAClass
+                                  })
+                            }),
                         JsxRuntime.jsx("a", {
                               children: "Github",
                               className: innerAClass,

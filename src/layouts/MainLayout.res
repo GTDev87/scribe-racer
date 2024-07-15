@@ -70,6 +70,11 @@ module Navigation = {
             {React.string("Examples")}
           </a>
         </Link>
+        <Link legacyBehavior=true href="/scribe">
+          <a className=legacyAClass>
+            {React.string("Scribe")}
+          </a>
+        </Link>
         <a
           className=innerAClass
           target="_blank"

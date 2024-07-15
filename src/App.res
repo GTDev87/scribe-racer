@@ -42,6 +42,15 @@ let default = (props: props): React.element => {
             content
           </div>
         </>
+      | "/scribe" => <ScribePage />
+        // <>
+        //   <h1 className=h1Class>
+        //     {React.string("Examples Section")}
+        //   </h1>
+        //   <div>
+        //     content
+        //   </div>
+        // </>
       | _ => content
       }
     }
